@@ -5,7 +5,7 @@ function updateCountdown() {
 //    targetDate.setHours(0, 0, 0, 0);
 //    targetDate.setHours(targetDate.getHours() - 6);
 
-    const targetDate = new Date('March 6, 2025 00:00:00');
+    const targetDate = new Date('March 7, 2025 00:00:00');
 
     function formatTimeRemaining(distance) {
         const days = Math.ceil(distance / (1000 * 60 * 60 * 24));
